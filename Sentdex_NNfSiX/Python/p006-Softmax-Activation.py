@@ -25,7 +25,7 @@ class Activation_Softmax:
         self.output = probabilities
 
 
-X, y = spiral_data(samples=100, classes=3)
+X, y = spiral_data(points=100, classes=3)
 
 dense1 = Layer_Dense(2,3)
 activation1 = Activation_ReLU()
